@@ -1,0 +1,107 @@
+.header {
+  padding: 20px 40px 0;
+  background: var(--ughe-white);
+}
+
+.topRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.logoBlock {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  object-fit: contain;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.titleLine {
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.utilityRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.utilityBtn {
+  background: var(--ughe-utility-bg);
+  color: var(--ughe-red);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 8px 14px;
+  border: 1px solid #d4b8be;
+}
+
+.utilityBtn:hover {
+  background: #dcc4c9;
+}
+
+.searchBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ccc;
+  background: var(--ughe-white);
+  font-size: 1.1rem;
+}
+
+.mainNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin-top: 28px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.navItem {
+  font-size: 1.05rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.navItem:hover {
+  color: var(--ughe-red);
+}
+
+.chevron {
+  font-size: 0.65rem;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 16px 16px 0;
+  }
+
+  .titleLine {
+    font-size: 1rem;
+  }
+
+  .mainNav {
+    gap: 16px;
+  }
+}
